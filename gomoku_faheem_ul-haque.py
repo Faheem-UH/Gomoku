@@ -1,13 +1,9 @@
 """
 A Python module for the Gomoku game.
 board game where players compete to get 5 in a row
-
-Full name: Faheem Ul-Haque
-StudentId: 10908256
-Email: faheem.ul-haque@student.manchester.ac.uk
 """
 
-from copy import deepcopy # you may use this for copying a board
+from copy import deepcopy 
 
 def newGame(player1, player2):
     """
@@ -392,4 +388,5 @@ def play():
 
 if __name__ == '__main__' or __name__ == 'builtins':
    play()
+
 
